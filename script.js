@@ -312,7 +312,8 @@ const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
 
 function setDark(on) {
   document.body.classList.toggle('dark', on);
-  darkBtn.textContent = on ? '☀️' : '🌙';
+  darkBtn.querySelector('.icon-moon').style.display = on  ? 'none' : '';
+  darkBtn.querySelector('.icon-sun').style.display  = on  ? ''     : 'none';
   localStorage.setItem('darkMode', on ? '1' : '0');
 }
 
