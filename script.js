@@ -15,12 +15,12 @@ const translations = {
 
     // Hero
     'hero-eyebrow':        'Marketing Communications Manager',
-    'hero-tagline':        'B2B demand generation &amp; content strategy specialist<br>turning ideas into measurable impact.',
+    'hero-tagline':        'B2B marketer, strategic content and demand generation specialist<br>working across sustainability, tech, and creative industries.',
     'btn-view-work':       'View My Work',
     'btn-download-cv':     'Download CV',
-    'stat-years-label':    'Years Experience',
-    'stat-mqls-label':     'MQLs Generated',
-    'stat-newsletter-label': 'Newsletter Subscribers',
+    'stat-berlin-label':     'Years in Berlin',
+    'stat-years-label':      'Years Experience',
+    'stat-industries-label': 'Industries',
 
     // About
     'about-label':         'About',
@@ -160,12 +160,12 @@ const translations = {
 
     // Hero
     'hero-eyebrow':        'Marketing Communications Manager',
-    'hero-tagline':        'B2B-Demand-Generation &amp; Content-Strategie-Spezialistin<br>Ideen in messbare Wirkung umsetzen.',
+    'hero-tagline':        'B2B-Marketerin, Spezialistin für strategischen Content und Demand Generation<br>mit Erfahrung in Nachhaltigkeit, Tech und Kreativbranche.',
     'btn-view-work':       'Meine Projekte',
     'btn-download-cv':     'Lebenslauf herunterladen',
-    'stat-years-label':    'Jahre Erfahrung',
-    'stat-mqls-label':     'MQLs generiert',
-    'stat-newsletter-label': 'Newsletter-Abonnenten',
+    'stat-berlin-label':     'Jahre in Berlin',
+    'stat-years-label':      'Jahre Erfahrung',
+    'stat-industries-label': 'Branchen',
 
     // About
     'about-label':         'Über mich',
