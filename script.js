@@ -112,12 +112,12 @@ const translations = {
 
     // Future of Work project
     'proj6-tag':    'Foresight Research',
-    'proj6-tag2':   'Master\'s Thesis',
     'proj6-title':  'Future of Workplace Dynamics<br>What If Workplaces Were Designed for Learning?',
-    'proj6-desc':   'A master\'s foresight research project examining how organisations can be redesigned around continuous learning rather than output alone. Using STEEPV analysis and the Iceberg Model, the research explored the systemic drivers behind workplace behaviour, advocating for interdisciplinary collaboration, self-directed development, and digital platforms as learning enablers. The findings proved prescient — the COVID-19 pandemic accelerated many of the predicted shifts toward remote work and adaptive skill-building.',
+    'proj6-desc':   'A foresight research project examining how organisations can be redesigned around continuous learning rather than output alone. Using STEEPV analysis and the Iceberg Model, the research explored the systemic drivers behind workplace behaviour, advocating for interdisciplinary collaboration, self-directed development, and digital platforms as learning enablers. The findings proved prescient — the COVID-19 pandemic accelerated many of the predicted shifts toward remote work and adaptive skill-building.',
     'proj6-pm1':    'Research Framework',
-    'proj6-pm2':    'Research Period',
-    'proj6-link':   'Read on Medium',
+    'proj6-pm2':    'Temporal Reach',
+    'proj6-link':   'View Project',
+    'proj-link-report': 'View Report',
 
     // Rockbuster project
     'proj5-title':  'Rockbuster Stealth LLC<br>Data Analysis Using SQL',
@@ -266,12 +266,12 @@ const translations = {
 
     // Future of Work-Projekt
     'proj6-tag':    'Foresight-Forschung',
-    'proj6-tag2':   'Masterarbeit',
     'proj6-title':  'Zukunft der Arbeitsdynamik<br>Was wäre, wenn Arbeitsplätze für Lernen gestaltet würden?',
-    'proj6-desc':   'Ein Foresight-Forschungsprojekt im Masterstudium, das untersucht, wie Organisationen rund um kontinuierliches Lernen statt reiner Output-Orientierung neu gestaltet werden können. Mit STEEPV-Analyse und dem Eisbergmodell wurden die systemischen Treiber hinter dem Arbeitsplatzverhalten untersucht. Die Ergebnisse erwiesen sich als vorausschauend — die COVID-19-Pandemie beschleunigte viele der vorhergesagten Entwicklungen hin zu Remote-Arbeit und adaptivem Kompetenzaufbau.',
+    'proj6-desc':   'Ein Foresight-Forschungsprojekt, das untersucht, wie Organisationen rund um kontinuierliches Lernen statt reiner Output-Orientierung neu gestaltet werden können. Mit STEEPV-Analyse und dem Eisbergmodell wurden die systemischen Treiber hinter dem Arbeitsplatzverhalten untersucht. Die Ergebnisse erwiesen sich als vorausschauend — die COVID-19-Pandemie beschleunigte viele der vorhergesagten Entwicklungen hin zu Remote-Arbeit und adaptivem Kompetenzaufbau.',
     'proj6-pm1':    'Forschungsrahmen',
-    'proj6-pm2':    'Forschungszeitraum',
-    'proj6-link':   'Auf Medium lesen',
+    'proj6-pm2':    'Zeitlicher Horizont',
+    'proj6-link':   'Projekt ansehen',
+    'proj-link-report': 'Bericht ansehen',
 
     // Rockbuster-Projekt
     'proj5-title':  'Rockbuster Stealth LLC<br>Datenanalyse mit SQL',
