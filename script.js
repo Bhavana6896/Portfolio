@@ -305,3 +305,19 @@ document.querySelectorAll('.fade-in').forEach(el => {
   el.style.transitionDelay = `${siblings.indexOf(el) * 0.08}s`;
   observer.observe(el);
 });
+
+// ── Dark Mode Toggle ───────────────────────────────────────────────────────
+const darkBtn = document.getElementById('darkModeToggle');
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+function setDark(on) {
+  document.body.classList.toggle('dark', on);
+  darkBtn.textContent = on ? '☀️' : '🌙';
+  localStorage.setItem('darkMode', on ? '1' : '0');
+}
+
+// Load saved preference, fall back to system preference
+const saved = localStorage.getItem('darkMode');
+setDark(saved !== null ? saved === '1' : prefersDark.matches);
+
+darkBtn.addEventListener('click', () => setDark(!document.body.classList.contains('dark')));

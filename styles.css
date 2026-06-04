@@ -26,6 +26,22 @@
 }
 
 /* =============================================
+   DARK MODE TOKENS
+   ============================================= */
+body.dark {
+  --cream:          #1A1612;
+  --cream-dark:     #221E19;
+  --card-bg:        #2A2420;
+  --border:         #3D3530;
+  --terracotta:     #D4845A;
+  --terracotta-h:   #C4714A;
+  --terracotta-lt:  #3D2E25;
+  --brown-900:      #F0EBE3;
+  --brown-600:      #C4B5A5;
+  --brown-400:      #8C7B6C;
+}
+
+/* =============================================
    RESET
    ============================================= */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -132,6 +148,21 @@ section[id] { scroll-margin-top: var(--nav-h); }
 .lang-btn + .lang-btn { border-left: 1px solid var(--border); }
 .lang-btn:hover        { color: var(--brown-900); background: var(--cream-dark); }
 .lang-btn.active       { color: #fff; background: var(--terracotta); }
+
+/* dark mode toggle */
+.dark-mode-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 5px 9px;
+  line-height: 1;
+  transition: background var(--t-fast), border-color var(--t-fast);
+  -webkit-tap-highlight-color: transparent;
+  flex-shrink: 0;
+}
+.dark-mode-btn:hover { background: var(--cream-dark); }
 
 /* hamburger */
 .hamburger {
