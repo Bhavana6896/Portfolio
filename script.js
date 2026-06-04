@@ -117,6 +117,7 @@ const translations = {
     'proj6-pm1':    'Research Framework',
     'proj6-pm2':    'Temporal Reach',
     'proj6-link':   'View Project',
+    'proj6-link2':  'Read on Medium',
     'proj-link-report': 'View Report',
 
     // Rockbuster project
@@ -271,6 +272,7 @@ const translations = {
     'proj6-pm1':    'Forschungsrahmen',
     'proj6-pm2':    'Zeitlicher Horizont',
     'proj6-link':   'Projekt ansehen',
+    'proj6-link2':  'Auf Medium lesen',
     'proj-link-report': 'Bericht ansehen',
 
     // Rockbuster-Projekt
