@@ -894,8 +894,9 @@ section[id] { scroll-margin-top: var(--nav-h); }
 }
 .ticker-track {
   display: flex;
-  gap: 0;
+  flex-wrap: nowrap;
   width: max-content;
+  will-change: transform;
   animation: ticker-scroll 40s linear infinite;
 }
 .ticker-wrap:hover .ticker-track { animation-play-state: paused; }
@@ -919,6 +920,9 @@ section[id] { scroll-margin-top: var(--nav-h); }
 @keyframes ticker-scroll {
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track { animation-duration: 0.01ms; }
 }
 
 /* =============================================
