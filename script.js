@@ -79,6 +79,8 @@ const translations = {
     'proj-label':   'Projects',
     'proj-heading': 'Work that<br>speaks for itself.',
     'proj-tag':     'Featured Campaign',
+    'proj-tag2':    'Strategic Foresight',
+    'btn-medium':   'Medium',
     'proj-desc':    'A multi-channel B2B campaign targeting C-level executives and senior innovation leaders, promoting strategic foresight insights on decarbonisation. Executed across LinkedIn (organic + paid), CRM email, and digital media, driving measurable lead generation and establishing brand authority in the sustainability foresight space.',
     'proj-link':    'View Case Study',
     'proj-link-gh': 'View on GitHub',
@@ -88,7 +90,7 @@ const translations = {
 
     // Portfolio project
     'proj2-tag':    'Personal Project',
-    'proj2-tag2':   'Built with Claude',
+    'proj2-tag2':   'Vibe Coding',
     'proj2-title':  'Building This Portfolio<br>From CV to Live Website with AI',
     'proj2-desc':   'Starting from a LaTeX CV built in Overleaf, this portfolio was designed and coded from scratch in a single afternoon using Claude and VS Code, with no prior web development experience required. A week later, Claude Code was used to iterate on the live site: connecting local and remote repositories via GitHub, adding dark mode, a tools ticker, new project cards, and refining the design in real time. The entire workflow, from first line of code to deployed site, demonstrates what becomes possible when clear intent meets the right AI tools.',
     'proj2-pm1':    'Initial Build Time',
@@ -222,6 +224,8 @@ const translations = {
     'proj-label':   'Projekte',
     'proj-heading': 'Arbeit, die<br>für sich spricht.',
     'proj-tag':     'Ausgewählte Kampagne',
+    'proj-tag2':    'Strategische Vorausschau',
+    'btn-medium':   'Medium',
     'proj-desc':    'Eine Multi-Channel-B2B-Kampagne für C-Level-Entscheider und Senior Innovation Leader zur Förderung strategischer Foresight-Erkenntnisse zur Dekarbonisierung. Durchgeführt über LinkedIn (organisch + bezahlt), CRM-E-Mail und digitale Medien – mit messbarer Lead-Generierung und dem Aufbau von Marken-Autorität im Bereich Nachhaltigkeits-Foresight.',
     'proj-link':    'Fallstudie ansehen',
     'proj-link-gh': 'Auf GitHub ansehen',
@@ -231,7 +235,7 @@ const translations = {
 
     // Portfolio-Projekt
     'proj2-tag':    'Persönliches Projekt',
-    'proj2-tag2':   'Erstellt mit Claude',
+    'proj2-tag2':   'Vibe Coding',
     'proj2-title':  'Dieses Portfolio aufbauen<br>Vom Lebenslauf zur Live-Website mit KI',
     'proj2-desc':   'Ausgehend von einem in Overleaf erstellten LaTeX-Lebenslauf wurde dieses Portfolio an einem einzigen Nachmittag mit Claude und VS Code von Grund auf neu gestaltet und programmiert, ohne Vorkenntnisse in der Webentwicklung. Eine Woche später wurde Claude Code genutzt, um die Live-Website weiterzuentwickeln: lokale und remote Repositories via GitHub verbinden, Dark Mode, einen Tools-Ticker und neue Projektkarten hinzufügen sowie das Design in Echtzeit verfeinern. Der gesamte Workflow zeigt, was möglich wird, wenn klare Absicht auf die richtigen KI-Tools trifft.',
     'proj2-pm1':    'Initiale Entwicklungszeit',
