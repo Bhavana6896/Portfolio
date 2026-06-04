@@ -378,3 +378,18 @@ const saved = localStorage.getItem('darkMode');
 setDark(saved !== null ? saved === '1' : prefersDark.matches);
 
 darkBtn.addEventListener('click', () => setDark(!document.body.classList.contains('dark')));
+
+// ── Project Tabs ───────────────────────────────────────────────────────────
+const projTabs   = document.querySelectorAll('.proj-tab');
+const projPanels = document.querySelectorAll('.proj-panel');
+
+projTabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    const idx = tab.dataset.tab;
+    projTabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+    projPanels.forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    tab.setAttribute('aria-selected', 'true');
+    document.querySelector(`.proj-panel[data-panel="${idx}"]`).classList.add('active');
+  });
+});

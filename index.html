@@ -254,7 +254,18 @@
       <div class="container">
         <p class="section-label" data-i18n="proj-label">Projects</p>
         <h2 class="section-heading" data-i18n="proj-heading">Work that<br>speaks for itself.</h2>
-        <div class="project-card fade-in">
+        <!-- Project Tabs -->
+        <div class="proj-tabs" role="tablist" aria-label="Projects">
+          <button class="proj-tab active" role="tab" aria-selected="true"  data-tab="0">This Portfolio</button>
+          <button class="proj-tab"        role="tab" aria-selected="false" data-tab="1">Instacart</button>
+          <button class="proj-tab"        role="tab" aria-selected="false" data-tab="2">Decarbonisation</button>
+          <button class="proj-tab"        role="tab" aria-selected="false" data-tab="3">Circularity</button>
+          <button class="proj-tab"        role="tab" aria-selected="false" data-tab="4">Rockbuster</button>
+        </div>
+
+        <div class="proj-panels">
+
+        <div class="project-card proj-panel active" role="tabpanel" data-panel="0">
           <div class="project-card-body">
             <div class="project-top">
               <div class="project-tags">
@@ -284,7 +295,7 @@
           </div>
         </div>
 
-        <div class="project-card fade-in">
+        <div class="project-card proj-panel" role="tabpanel" data-panel="1">
           <div class="project-card-body">
             <div class="project-top">
               <div class="project-tags">
@@ -314,7 +325,7 @@
           </div>
         </div>
 
-        <div class="project-card fade-in">
+        <div class="project-card proj-panel" role="tabpanel" data-panel="2">
           <div class="project-card-body">
             <div class="project-top">
               <span class="project-tag" data-i18n="proj-tag">Featured Campaign</span>
@@ -345,7 +356,7 @@
           </div>
         </div>
 
-        <div class="project-card fade-in">
+        <div class="project-card proj-panel" role="tabpanel" data-panel="3">
           <div class="project-card-body">
             <div class="project-top">
               <div class="project-tags">
@@ -375,7 +386,7 @@
           </div>
         </div>
 
-        <div class="project-card fade-in">
+        <div class="project-card proj-panel" role="tabpanel" data-panel="4">
           <div class="project-card-body">
             <div class="project-top">
               <div class="project-tags">
@@ -401,6 +412,7 @@
           </div>
         </div>
 
+        </div><!-- /proj-panels -->
       </div>
     </section>
 

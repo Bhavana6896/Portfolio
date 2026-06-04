@@ -608,15 +608,48 @@ section[id] { scroll-margin-top: var(--nav-h); }
 /* =============================================
    PROJECTS
    ============================================= */
+/* Project Tabs */
+.proj-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+.proj-tab {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-family: var(--ff-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--brown-400);
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background var(--t-fast), color var(--t-fast), border-color var(--t-fast);
+  -webkit-tap-highlight-color: transparent;
+}
+.proj-tab:hover  { color: var(--brown-900); border-color: var(--brown-400); }
+.proj-tab.active { background: var(--terracotta); border-color: var(--terracotta); color: #fff; }
+
+.proj-panels { position: relative; }
+.proj-panel  { display: none; }
+.proj-panel.active {
+  display: block;
+  animation: panelFade 0.35s var(--ease) both;
+}
+@keyframes panelFade {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 .project-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 10px;
   overflow: hidden;
   transition: box-shadow var(--t-med), transform var(--t-med);
-  margin-bottom: 48px;
 }
-.project-card:last-child { margin-bottom: 0; }
 .project-card:hover {
   box-shadow: 0 16px 56px rgba(28, 21, 16, 0.1);
   transform: translateY(-4px);
