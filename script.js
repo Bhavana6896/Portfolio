@@ -81,9 +81,37 @@ const translations = {
     'proj-tag':     'Featured Campaign',
     'proj-desc':    'A multi-channel B2B campaign targeting C-level executives and senior innovation leaders, promoting strategic foresight insights on decarbonisation. Executed across LinkedIn (organic + paid), CRM email, and digital media, driving measurable lead generation and establishing brand authority in the sustainability foresight space.',
     'proj-link':    'View Case Study',
+    'proj-link-gh': 'View on GitHub',
     'pm-label-1':   'MQLs Generated',
     'pm-label-2':   'Engagement Uplift',
     'pm-label-3':   'Newsletter Open Rate',
+
+    // Portfolio project
+    'proj2-tag':    'Personal Project',
+    'proj2-tag2':   'Built with Claude',
+    'proj2-title':  'Building This Portfolio<br>From CV to Live Website with AI',
+    'proj2-desc':   'Starting from a LaTeX CV built in Overleaf, this portfolio was designed and coded from scratch in a single afternoon using Claude and VS Code, with no prior web development experience required. A week later, Claude Code was used to iterate on the live site: connecting local and remote repositories via GitHub, adding dark mode, a tools ticker, new project cards, and refining the design in real time. The entire workflow, from first line of code to deployed site, demonstrates what becomes possible when clear intent meets the right AI tools.',
+    'proj2-pm1':    'Initial Build Time',
+    'proj2-pm2':    'AI-Assisted Development',
+
+    // Instacart project
+    'proj3-tag':    'Data Analysis',
+    'proj3-title':  'Instacart Basket Analysis<br>Customer Segmentation with Python',
+    'proj3-desc':   'Instacart\'s strong sales performance masked uneven patterns in customer purchasing behaviour. Using Python across 32.4 million transactions, I analysed buying habits by loyalty, region, age, family status, and income to identify high-value customer segments. The findings fed directly into a targeted marketing strategy, moving away from a one-size-fits-all approach toward more relevant, personalised promotions.',
+    'proj3-pm1':    'Transactions Analysed',
+
+    // IDEO project
+    'proj4-tag':    'Innovation Design Research',
+    'proj4-tag2':   'IDEO Collaboration',
+    'proj4-title':  'Closing the Communication Loop<br>Gamifying Circularity with IDEO',
+    'proj4-desc':   'A collaborative research and design project with IDEO and AMD Berlin (Hochschule Fresenius), exploring how gamification and open innovation tools can help organisations communicate and adopt circular economy principles internally. The outcome was a Circularity Playbook featuring two original game formats, The Circular Escape and Speed Dating into a Circular Future, designed to break down silos, spark cross-team collaboration, and make sustainability learning engaging and participatory.',
+    'proj4-pm1':    'Team Members',
+    'proj4-pm2':    'Game Formats',
+
+    // Rockbuster project
+    'proj5-title':  'Rockbuster Stealth LLC<br>Data Analysis Using SQL',
+    'proj5-desc':   'Rockbuster Stealth, a global movie rental company facing disruption from streaming platforms, needed data-driven insights to launch a competitive online rental service. Using PostgreSQL, I analysed the company\'s film inventory, customer behaviour, rental activity, and payment data to answer key strategic questions, identifying top-performing titles, high-value customer segments, and regional revenue patterns to inform their launch strategy.',
+    'proj5-pm1':    'PostgreSQL Queries',
 
     // Skills
     'skills-label':   'Skills',
@@ -196,9 +224,37 @@ const translations = {
     'proj-tag':     'Ausgewählte Kampagne',
     'proj-desc':    'Eine Multi-Channel-B2B-Kampagne für C-Level-Entscheider und Senior Innovation Leader zur Förderung strategischer Foresight-Erkenntnisse zur Dekarbonisierung. Durchgeführt über LinkedIn (organisch + bezahlt), CRM-E-Mail und digitale Medien – mit messbarer Lead-Generierung und dem Aufbau von Marken-Autorität im Bereich Nachhaltigkeits-Foresight.',
     'proj-link':    'Fallstudie ansehen',
+    'proj-link-gh': 'Auf GitHub ansehen',
     'pm-label-1':   'MQLs generiert',
     'pm-label-2':   'Engagement-Steigerung',
     'pm-label-3':   'Newsletter-Öffnungsrate',
+
+    // Portfolio-Projekt
+    'proj2-tag':    'Persönliches Projekt',
+    'proj2-tag2':   'Erstellt mit Claude',
+    'proj2-title':  'Dieses Portfolio aufbauen<br>Vom Lebenslauf zur Live-Website mit KI',
+    'proj2-desc':   'Ausgehend von einem in Overleaf erstellten LaTeX-Lebenslauf wurde dieses Portfolio an einem einzigen Nachmittag mit Claude und VS Code von Grund auf neu gestaltet und programmiert, ohne Vorkenntnisse in der Webentwicklung. Eine Woche später wurde Claude Code genutzt, um die Live-Website weiterzuentwickeln: lokale und remote Repositories via GitHub verbinden, Dark Mode, einen Tools-Ticker und neue Projektkarten hinzufügen sowie das Design in Echtzeit verfeinern. Der gesamte Workflow zeigt, was möglich wird, wenn klare Absicht auf die richtigen KI-Tools trifft.',
+    'proj2-pm1':    'Initiale Entwicklungszeit',
+    'proj2-pm2':    'KI-gestützte Entwicklung',
+
+    // Instacart-Projekt
+    'proj3-tag':    'Datenanalyse',
+    'proj3-title':  'Instacart Warenkorbanalyse<br>Kundensegmentierung mit Python',
+    'proj3-desc':   'Instacarts starke Vertriebsleistung verdeckte ungleichmäßige Muster im Kaufverhalten der Kunden. Mit Python analysierte ich über 32,4 Millionen Transaktionen nach Loyalität, Region, Alter, Familienstand und Einkommen, um hochwertige Kundensegmente zu identifizieren. Die Erkenntnisse flossen direkt in eine zielgerichtete Marketingstrategie ein, die einen einheitlichen Ansatz durch relevantere, personalisierte Aktionen ersetzte.',
+    'proj3-pm1':    'Analysierte Transaktionen',
+
+    // IDEO-Projekt
+    'proj4-tag':    'Innovationsdesign-Forschung',
+    'proj4-tag2':   'IDEO-Kooperation',
+    'proj4-title':  'Den Kommunikationskreislauf schließen<br>Zirkularität spielerisch mit IDEO gestalten',
+    'proj4-desc':   'Ein kollaboratives Forschungs- und Designprojekt mit IDEO und AMD Berlin (Hochschule Fresenius), das untersucht, wie Gamification und Open-Innovation-Werkzeuge Organisationen dabei helfen können, Kreislaufwirtschaftsprinzipien intern zu kommunizieren und umzusetzen. Das Ergebnis war ein Circularity Playbook mit zwei originellen Spielformaten, The Circular Escape und Speed Dating into a Circular Future, die darauf ausgelegt sind, Silos aufzubrechen, abteilungsübergreifende Zusammenarbeit zu fördern und Nachhaltigkeitslernen erlebbar zu machen.',
+    'proj4-pm1':    'Teammitglieder',
+    'proj4-pm2':    'Spielformate',
+
+    // Rockbuster-Projekt
+    'proj5-title':  'Rockbuster Stealth LLC<br>Datenanalyse mit SQL',
+    'proj5-desc':   'Rockbuster Stealth, ein globales Filmverleihunternehmen, das durch Streaming-Plattformen unter Druck gerät, benötigte datengestützte Erkenntnisse für den Launch eines wettbewerbsfähigen Online-Verleihdienstes. Mit PostgreSQL analysierte ich das Filminventar, das Kundenverhalten, die Mietaktivitäten und Zahlungsdaten des Unternehmens, um zentrale strategische Fragen zu beantworten und Top-Titel, wertvolle Kundensegmente sowie regionale Umsatzmuster für die Launchstrategie zu identifizieren.',
+    'proj5-pm1':    'PostgreSQL-Abfragen',
 
     // Skills
     'skills-label':   'Kenntnisse',
