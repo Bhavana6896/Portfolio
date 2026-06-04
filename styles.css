@@ -614,7 +614,9 @@ section[id] { scroll-margin-top: var(--nav-h); }
   border-radius: 10px;
   overflow: hidden;
   transition: box-shadow var(--t-med), transform var(--t-med);
+  margin-bottom: 48px;
 }
+.project-card:last-child { margin-bottom: 0; }
 .project-card:hover {
   box-shadow: 0 16px 56px rgba(28, 21, 16, 0.1);
   transform: translateY(-4px);
@@ -638,6 +640,18 @@ section[id] { scroll-margin-top: var(--nav-h); }
   padding: 5px 12px;
   border-radius: 100px;
 }
+.project-tag-secondary {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brown-600);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 5px 12px;
+  border-radius: 100px;
+}
+.project-tags { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .project-year { font-size: 0.78rem; color: var(--brown-400); }
 
 .project-title {
