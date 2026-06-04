@@ -883,6 +883,45 @@ section[id] { scroll-margin-top: var(--nav-h); }
 }
 
 /* =============================================
+   TOOLS TICKER
+   ============================================= */
+.ticker-wrap {
+  overflow: hidden;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 0;
+  background: var(--cream-dark);
+}
+.ticker-track {
+  display: flex;
+  gap: 0;
+  width: max-content;
+  animation: ticker-scroll 40s linear infinite;
+}
+.ticker-wrap:hover .ticker-track { animation-play-state: paused; }
+.ticker-item {
+  font-family: var(--ff-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brown-400);
+  padding: 0 2rem;
+  white-space: nowrap;
+  position: relative;
+}
+.ticker-item::after {
+  content: '·';
+  position: absolute;
+  right: -0.1rem;
+  color: var(--terracotta);
+}
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* =============================================
    RESPONSIVE — SMALL MOBILE ≤ 480px
    ============================================= */
 @media (max-width: 480px) {
