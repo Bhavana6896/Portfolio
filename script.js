@@ -1,5 +1,7 @@
 'use strict';
 
+
+
 // ── Translations ───────────────────────────────────────────────────────────
 const translations = {
   en: {
