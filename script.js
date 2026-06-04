@@ -15,7 +15,7 @@ const translations = {
 
     // Hero
     'hero-eyebrow':        'Marketing Communications Manager',
-    'hero-tagline':        'B2B demand generation &amp; content strategy specialist —<br>turning ideas into measurable impact.',
+    'hero-tagline':        'B2B demand generation &amp; content strategy specialist<br>turning ideas into measurable impact.',
     'btn-view-work':       'View My Work',
     'btn-download-cv':     'Download CV',
     'stat-years-label':    'Years Experience',
@@ -25,8 +25,8 @@ const translations = {
     // About
     'about-label':         'About',
     'about-heading':       'Connecting brands<br>to the right conversations.',
-    'about-p1':            'I\'m a Berlin-based Marketing Communications Manager with 4+ years of experience in B2B demand generation, content strategy, and multi-channel campaign execution. My work sits at the intersection of strategic thinking and creative craft — whether that\'s building an 87% engagement campaign on LinkedIn, managing a 10K+ subscriber newsletter, or producing thought leadership for C-suite audiences.',
-    'about-p2':            'With a background in fashion communication and sustainability, I bring an editorial sensibility to B2B marketing that goes beyond conversions — I build brand narratives that resonate and endure.',
+    'about-p1':            'I\'m a Berlin-based Marketing Communications Manager with 4+ years of experience in B2B demand generation, content strategy, and multi-channel campaign execution. My work sits at the intersection of strategic thinking and creative craft: whether that\'s building an 87% engagement campaign on LinkedIn, managing a 10K+ subscriber newsletter, or producing thought leadership for C-suite audiences.',
+    'about-p2':            'With a background in fashion communication and sustainability, I bring an editorial sensibility to B2B marketing that goes beyond conversions. I build brand narratives that resonate and endure.',
     'about-chip-location': '📍 Berlin, Germany',
     'about-chip-lang':     '🌐 English · German',
     'about-chip-open':     '🎯 Open to opportunities',
@@ -79,7 +79,7 @@ const translations = {
     'proj-label':   'Projects',
     'proj-heading': 'Work that<br>speaks for itself.',
     'proj-tag':     'Featured Campaign',
-    'proj-desc':    'A multi-channel B2B campaign targeting C-level executives and senior innovation leaders, promoting strategic foresight insights on decarbonisation. Executed across LinkedIn (organic + paid), CRM email, and digital media — driving measurable lead generation and establishing brand authority in the sustainability foresight space.',
+    'proj-desc':    'A multi-channel B2B campaign targeting C-level executives and senior innovation leaders, promoting strategic foresight insights on decarbonisation. Executed across LinkedIn (organic + paid), CRM email, and digital media, driving measurable lead generation and establishing brand authority in the sustainability foresight space.',
     'proj-link':    'View Case Study',
     'pm-label-1':   'MQLs Generated',
     'pm-label-2':   'Engagement Uplift',
@@ -111,7 +111,7 @@ const translations = {
     // Contact
     'contact-label':   'Contact',
     'contact-heading': 'Let\'s build<br>something together.',
-    'contact-sub':     'Open to full-time B2B marketing roles and exciting collaborations.<br>Based in Berlin — available for remote and hybrid opportunities.',
+    'contact-sub':     'Open to full-time B2B marketing roles and exciting collaborations.<br>Based in Berlin, available for remote and hybrid opportunities.',
     'btn-linkedin':    'LinkedIn',
     'btn-email':       'Send an Email',
 
@@ -130,7 +130,7 @@ const translations = {
 
     // Hero
     'hero-eyebrow':        'Marketing Communications Manager',
-    'hero-tagline':        'B2B-Demand-Generation &amp; Content-Strategie-Spezialistin —<br>Ideen in messbare Wirkung umsetzen.',
+    'hero-tagline':        'B2B-Demand-Generation &amp; Content-Strategie-Spezialistin<br>Ideen in messbare Wirkung umsetzen.',
     'btn-view-work':       'Meine Projekte',
     'btn-download-cv':     'Lebenslauf herunterladen',
     'stat-years-label':    'Jahre Erfahrung',
@@ -140,8 +140,8 @@ const translations = {
     // About
     'about-label':         'Über mich',
     'about-heading':       'Marken mit den richtigen<br>Gesprächen verbinden.',
-    'about-p1':            'Ich bin eine in Berlin ansässige Marketing Communications Managerin mit über 4 Jahren Erfahrung in B2B-Demand-Generation, Content-Strategie und kanalübergreifender Kampagnenführung. Meine Arbeit vereint strategisches Denken mit kreativem Handwerk — von einer LinkedIn-Kampagne mit 87 % mehr Engagement über die Betreuung eines Newsletters mit über 10.000 Abonnenten bis hin zu Thought-Leadership-Inhalten für C-Level-Entscheider.',
-    'about-p2':            'Mit einem Hintergrund in Mode-Kommunikation und Nachhaltigkeit bringe ich eine redaktionelle Sensibilität ins B2B-Marketing, die über Conversions hinausgeht — ich entwickle Markengeschichten, die resonieren und Bestand haben.',
+    'about-p1':            'Ich bin eine in Berlin ansässige Marketing Communications Managerin mit über 4 Jahren Erfahrung in B2B-Demand-Generation, Content-Strategie und kanalübergreifender Kampagnenführung. Meine Arbeit vereint strategisches Denken mit kreativem Handwerk: von einer LinkedIn-Kampagne mit 87 % mehr Engagement über die Betreuung eines Newsletters mit über 10.000 Abonnenten bis hin zu Thought-Leadership-Inhalten für C-Level-Entscheider.',
+    'about-p2':            'Mit einem Hintergrund in Mode-Kommunikation und Nachhaltigkeit bringe ich eine redaktionelle Sensibilität ins B2B-Marketing, die über Conversions hinausgeht. Ich entwickle Markengeschichten, die resonieren und Bestand haben.',
     'about-chip-location': '📍 Berlin, Deutschland',
     'about-chip-lang':     '🌐 Englisch · Deutsch',
     'about-chip-open':     '🎯 Offen für neue Positionen',
@@ -226,7 +226,7 @@ const translations = {
     // Contact
     'contact-label':   'Kontakt',
     'contact-heading': 'Lass uns gemeinsam<br>etwas aufbauen.',
-    'contact-sub':     'Offen für Vollzeit-B2B-Marketingstellen und spannende Kooperationen.<br>In Berlin ansässig — verfügbar für Remote- und hybride Positionen.',
+    'contact-sub':     'Offen für Vollzeit-B2B-Marketingstellen und spannende Kooperationen.<br>In Berlin ansässig, verfügbar für Remote- und hybride Positionen.',
     'btn-linkedin':    'LinkedIn',
     'btn-email':       'E-Mail senden',
 
