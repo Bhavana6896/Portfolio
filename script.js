@@ -15,7 +15,7 @@ const translations = {
 
     // Hero
     'hero-eyebrow':        'Marketing Communications Manager',
-    'hero-tagline':        'B2B marketer, strategic content and demand generation specialist<br>working across sustainability, tech, and creative industries.',
+    'hero-tagline':        'B2B marketer, strategic content and demand generation specialist working across sustainability, tech, and creative industries.',
     'btn-view-work':       'View My Work',
     'btn-download-cv':     'Download CV',
     'stat-berlin-label':     'Years in Berlin',
